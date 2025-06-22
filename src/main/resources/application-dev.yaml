@@ -1,0 +1,24 @@
+spring:
+  r2dbc:
+    url: ${SPRING_R2DBC_URL}
+    username: ${SPRING_R2DBC_USERNAME}
+    password: ${SPRING_R2DBC_PASSWORD}
+  liquibase:
+    change-log: db/changelog/changelog-master.yaml
+    enabled: true
+    url: ${LIQUIBASE_JDBC_URL}
+    user: ${SPRING_R2DBC_USERNAME}
+    password: ${SPRING_R2DBC_PASSWORD}
+  threads:
+    virtual:
+      enabled: false
+  devtools:
+    add-properties: true
+    livereload:
+      enabled: true
+
+logging:
+  level:
+    '[org.springframework.r2dbc]': debug
+    '[org.liquibase]': debug
+    web: debug
