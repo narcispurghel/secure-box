@@ -54,7 +54,7 @@ Once the app is running, the Swagger UI is available at: http://localhost:8080/s
 
 ## 📁 Project Structure (Simplified)
 
-```json
+```
 secure-box/
 ├── src/main/kotlin/
 │   └── com/securebox/
@@ -72,12 +72,12 @@ secure-box/
 
 ## 🧠 What I Learned
 
-1. [ ] Kotlin syntax and idiomatic patterns
-2. [ ] Spring WebFlux and how it differs from Spring MVC
-3. [ ] Using coroutines for reactive flow control
-4. [ ] Connecting to PostgreSQL using R2DBC
-5. [ ] Creating and testing reactive endpoints
-6. [ ] Dockerizing a full-stack reactive backend
+1. [x] Kotlin syntax and idiomatic patterns
+2. [x] Spring WebFlux and how it differs from Spring MVC
+3. [x] Using coroutines for reactive flow control
+4. [x] Connecting to PostgreSQL using R2DBC
+5. [x] Creating and testing reactive endpoints
+6. [x] Dockerizing a full-stack reactive backend
 
 
 ## 📌 Future Improvements
